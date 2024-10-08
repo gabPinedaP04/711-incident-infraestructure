@@ -1,0 +1,23 @@
+module "dev_vm" {
+  source = "../../modules/vm"
+  resource_group = "IN-RG-Gabriel-Dev"
+  security_group_name = "IN-SG-Gabriel-Dev"
+  vnet_name = "IN-VNET-Gabriel-Dev"
+  subnet_name = "IN-SUBNET-Gabriel-Dev"
+  ip_name = "IN-IP-Gabriel-Dev"
+  location = "eastus2"
+  admin_username = "adminuser"
+  nic_name = "IN-NIC-Gabriel-Dev"
+  DOMAIN = ""
+  MAIL_SECRET_KEY = ""
+  MAIL_SERVICE = ""
+  MAPBOX_ACCESS_TOKEN = ""
+  vm_name = "IN-Server-Gabriel-Dev"
+  MONGO_INITDB_ROOT_USERNAME = ""
+  MONGO_INITDB_ROOT_PASSWORD = ""
+  MONGO_DB = ""
+  MAIL_USER = ""
+  PORT = ""
+  MONGO_URL = ""
+}
+ 
